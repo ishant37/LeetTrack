@@ -4,7 +4,7 @@ import api from "../services/api";
 const Dashboard = () => {
   const [problems, setProblems] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  // const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchProblems = async () => {
